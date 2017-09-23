@@ -9,8 +9,8 @@ public class HelloController {
 
 	@RequestMapping("/")
 	String home(ModelMap modal) {
-		modal.addAttribute("title", "Dear Learner");
-		modal.addAttribute("message", "Welcome to CaseStudyApp");
+		modal.addAttribute("title", "Hello World");
+		modal.addAttribute("message", "Welcome to init");
 		modal.addAttribute("footer", "Sample for Devops");
 		return "hello";
 	}
