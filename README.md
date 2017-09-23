@@ -1,2 +1,2 @@
-# init
-Repository created for learning
+# SampleCaseStudyApp
+SampleCaseStudyApp
